@@ -1,0 +1,40 @@
+{
+	"data":
+		[
+
+			{
+				"nodeId":"PythonNode1",
+				"things":
+					[
+						{
+							"id":"PySens",
+							"dataType":"INTEGER",
+							"vendor":"ARDIC",
+							"actuator":false,
+							"type":"pythonSensorType"
+						}
+					]
+			},
+			{
+				"nodeId":"PythonNode2",
+				"things":
+					[
+						{
+							"id":"PySensTemp",
+							"dataType":"INTEGER",
+							"vendor":"ARDIC",
+							"actuator":false,
+							"type":"pythonSensorType"
+						},
+						{
+							"id":"PySensHum",
+							"dataType":"INTEGER",
+							"vendor":"ARDIC",
+							"actuator":false,
+							"type":"pythonSensorType"
+						}
+					]
+			}
+
+		]
+	}
